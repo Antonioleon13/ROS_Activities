@@ -1,0 +1,2 @@
+basic_comms
+-DCATKIN_DEVEL_PREFIX=/home/jose/ROS_Activities/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jose/ROS_Activities/catkin_ws/install -G Unix Makefiles
