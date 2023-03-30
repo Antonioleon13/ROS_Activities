@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/jose/ROS_Activities/catkin_ws/build'
+export PATH='/opt/ros/melodic/bin:/home/ga3ta/miniconda3/condabin:/home/ga3ta/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PWD='/home/ga3ta/catkin_ws/build'

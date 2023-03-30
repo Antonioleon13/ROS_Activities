@@ -1,8 +1,8 @@
-# Install script for directory: /home/jose/ROS_Activities/catkin_ws/src/basic_comms
+# Install script for directory: /home/ga3ta/catkin_ws/src/basic_comms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jose/ROS_Activities/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ga3ta/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jose/ROS_Activities/catkin_ws/build/basic_comms/catkin_generated/installspace/basic_comms.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ga3ta/catkin_ws/build/basic_comms/catkin_generated/installspace/basic_comms.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_comms/cmake" TYPE FILE FILES
-    "/home/jose/ROS_Activities/catkin_ws/build/basic_comms/catkin_generated/installspace/basic_commsConfig.cmake"
-    "/home/jose/ROS_Activities/catkin_ws/build/basic_comms/catkin_generated/installspace/basic_commsConfig-version.cmake"
+    "/home/ga3ta/catkin_ws/build/basic_comms/catkin_generated/installspace/basic_commsConfig.cmake"
+    "/home/ga3ta/catkin_ws/build/basic_comms/catkin_generated/installspace/basic_commsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_comms" TYPE FILE FILES "/home/jose/ROS_Activities/catkin_ws/src/basic_comms/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basic_comms" TYPE FILE FILES "/home/ga3ta/catkin_ws/src/basic_comms/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/basic_comms" TYPE PROGRAM FILES "/home/jose/ROS_Activities/catkin_ws/build/basic_comms/catkin_generated/installspace/talker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/basic_comms" TYPE PROGRAM FILES "/home/ga3ta/catkin_ws/build/basic_comms/catkin_generated/installspace/talker.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/basic_comms" TYPE PROGRAM FILES "/home/ga3ta/catkin_ws/build/basic_comms/catkin_generated/installspace/listener.py")
 endif()
 
